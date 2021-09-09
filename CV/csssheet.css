@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+} 
+
+p{
+    margin-top:10px;
+}
+
+.container .content {
+    font-family: 'Poppins', sans-serif;
+    font-size:50pt;
+    text-align:center;
+    height: 100%;
+    width: 100%;
+    margin-top: 25%;
+    position:absolute;
+    color: #fff;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 1050px;
+    border: 6px solid #fff;
+    padding: 5px;
+    animation: float 6s ease-in-out infinite;
+    z-index: 102;
+    position: relative;
+}
+
+.container{
+    background-image: url('783219.jpg');   
+    background-repeat: no-repeat;
+    height:1000px;
+}
+
+.container_solid{
+    background-color: #D2E69C;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 -5px 10px;
+    display: flex;
+}
+
+.nama{
+    background-color: #fff;
+    width: 400px;
+    height: auto;
+    padding-left: 20px; 
+}
+
+div.nama:hover{
+    background-color: black;
+}
+
+.tentang_saya{
+    font-family: 'Poppins', sans-serif;
+    font-size:30pt;
+    margin-top: 50px;
+    margin-left: 420px;
+}  
+
+.container_gradient{
+    background: linear-gradient(#28B5B5 , #4B778D 75%);
+    width: 100%;
+    height: 550px;
+    margin-top:-400px;
+}
+
+.wave{
+    z-index: 100;
+    position: relative;
+}
+
+.mendatar{
+    display: flex;
+}
+
+.list{
+    font-size:20pt;
+}
+
+.container_pendidikan{
+    background-color: #3D84B8;
+    width: 30%;
+    height: 400px;
+    margin-top: -1000px;
+    margin-left: 425px;
+    z-index: 101;
+    position: relative;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    box-shadow: 0 20px 10px black;
+    border-radius: 35px;
+    color: #fff;
+}
+
+.container_keahlian{
+    background-color: #3D84B8;
+    width: 30%;
+    height: 400px;
+    margin-top: -1000px;
+    margin-left: 100px;
+    z-index: 101;
+    position: relative;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    box-shadow: 0 20px 10px black;
+    border-radius: 35px;
+    color: #fff;
+}
+
+#range1{
+    background: linear-gradient(90deg, #3D84B8 60%, #fff 40%);
+    width: 200px;
+    height: 40px;
+    border: 3px solid #fff;
+    margin-left: 25px;
+    padding-bottom: 10px;
+    text-align:center;
+}
+
+#range2{
+    background: linear-gradient(90deg, #3D84B8 60%, #fff 40%);
+    width: 200px;
+    height: 40px;
+    border: 3px solid #fff;
+    margin-left: 48px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    text-align:center;
+}
+
+#range3{
+    background: linear-gradient(90deg, #3D84B8 70%, #fff 30%);
+    width: 200px;
+    height: 40px;
+    border: 3px solid #fff;
+    margin-left: 197px;
+    padding-bottom: 10px;
+    text-align:center;
+}
+
+#range4{
+    background: linear-gradient(90deg, #3D84B8 20%, #fff 0%);
+    width: 200px;
+    height: 40px;
+    border: 3px solid #fff;
+    margin-left: 195px;
+    padding-bottom: 25px;
+    text-align:center; 
+    color: #3D84B8;
+}
+
+.container_kepanitiaan{
+    background-color: #3D84B8;
+    width: 30%;
+    height: 400px;
+    margin-top: -560px;
+    margin-left: 425px; 
+    z-index: 101;
+    position: relative;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    box-shadow: 0 20px 10px black;
+    border-radius: 35px;
+    color: #fff;
+}
+
+.container_prestasi{
+    background-color: #3D84B8;
+    width: 30%;
+    height: 400px;
+    margin-top: -560px;
+    margin-left: 100px;
+    z-index: 101;
+    position: relative;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+    box-shadow: 0 20px 10px black;
+    border-radius: 35px;
+    color: #fff;
+}
+
+.end_container{
+    background-color: rgb(255, 165, 62);
+    width: 100%;
+    height: 550px;
+    margin-top: -500px;
+    position: relative;
+    z-index: 66;
+}
+
+.sosmed{
+    background-color: #fff;
+    width: 40%;
+    height: 100px;
+    border-style: outset;
+    border-width: 8px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    padding-top: 6px;
+    padding-left: 20px;
+    position: relative;
+    z-index: 67;
+    color: #0f3e5f;
+    font-weight: 600;
+}
